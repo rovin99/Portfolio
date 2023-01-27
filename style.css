@@ -13,15 +13,13 @@ header {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex;
+    float: center;
     
   }
   
-  #nav{
-    margin-left: 500px;
-  }
+  
   #socials{
-    margin-left: 700px;
+    float: center;
   }
   nav ul li {
     display: inline-block;
