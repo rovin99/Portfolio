@@ -114,19 +114,85 @@ header{
 }
 #techstack{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:nowrap;
     justify-content: space-between;
+    margin: 50px 100px 70px 100px;
 }
-#techstack #outer-div{
-  background-color: grey;
+
+#techstack>div{
+  background-color: lightgray;
+  width: 10rem;
+  height: 2rem;
+  border-radius: 0.8rem;
+  border: 2px solid black;
+  text-align: center;
+  transition: .6s;
+  box-shadow: 0 5px 4px rgba(0,0,0,.5);
 }
-#techstack #outer-div1 #inner-div1{
-  width: 70%;
+#techstack>div:hover{
+  transform: translate(0, -10%);
+
+}
+
+#techstack #inner-div1{
   height: inherit;
-  background-color:aqua;
+  width: 70%;
+  background-color: #40c0e4;
+  border-radius: 0.8rem;
+  
 }
-#techstack div{
-  background-color: aqua;
-  padding: 10px;
-  border: 2px round black;
+#techstack #inner-div1:hover{
+  
+  background-color: #9de440;
+  
+  transition: color 0.5s
+}
+#techstack #inner-div2{
+  height: inherit;
+  width: 90%;
+  background-color: #e49740;
+  border-radius: 0.8rem;
+  
+}
+#techstack #inner-div3{
+  height: inherit;
+  width: 70%;
+  background-color: #e440a2;
+  border-radius: 0.8rem;
+  
+}
+#techstack #inner-div4{
+  height: inherit;
+  width: 70%;
+  background-color: #dce440;
+  border-radius: 0.8rem;
+  
+}
+#techstack #inner-div5{
+  height: inherit;
+  width: 70%;
+  background-color: #40e440;
+  border-radius: 0.8rem;
+  
+}
+#techstack #inner-div6{
+  height: inherit;
+  width: 60%;
+  background-color: #e44040;
+  border-radius: 0.8rem;
+  
+}
+#techstack #inner-div7{
+  height: inherit;
+  width: 90%;
+  background-color: #40e4c6;
+  border-radius: 0.8rem;
+  
+}
+#techstack #inner-div8{
+  height: inherit;
+  width: 80%;
+  background-color: #be40e4;
+  border-radius: 0.8rem;
+  
 }
